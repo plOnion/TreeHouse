@@ -164,7 +164,7 @@ body {
     margin-top: 1em;
 }
 
-/* SECTION LATEST PROJECT */
+/* LATEST PROJECT */
 
 .latest_project {
     padding-top: 4em;
@@ -179,9 +179,10 @@ body {
     text-decoration: none;
     color: #7cc576;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.125em;
+    margin-bottom: 10px;
+    display: inline-block;
 }
 
 .project__boxes{
@@ -204,12 +205,6 @@ body {
     .project__boxes__item {
         text-align: center;
     }
-
-    .ipad {
-        height: 150px;
-        margin: auto;
-        transform: translateX(80%)
-    }
 }
 
 @media(max-width:768px) {
@@ -218,12 +213,63 @@ body {
     }
 
     .ipad {
-        height: 200px;
-        margin: auto;
-        transform: translateX(80%)
+        display: none;
     }
 }
 
+/* 6TH - CULTURE & VALUES */
+
+.culture {
+    background-color: #f9f9f9;
+    min-height: 50vh;
+    font-size: 0.875em;
+    color: #777777;
+    padding: 3em 0;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.culture::before{
+    content: " ";
+    height: 0px;
+   
+}
+
+.culture::after{
+    content: " ";
+    height: 0px;
+    
+}
+
+@media(min-width:1000px){
+    .culture::before{
+        content: " ";
+        height: 2px;
+        width: 15vw;
+        border: 1px solid #777777;
+        position: absolute;
+        top: 200px;
+        left: 54vw;
+    }
+    .culture::after{
+        content: " ";
+        height: 2px;
+        width: 15vw;
+        border: 1px solid #777777;
+        position: absolute;
+        top: 200px;
+        left: 30vw;
+    }
+}
+
+.culture img {
+    padding: 2em 0;
+}
+
+.culture p {
+    padding: 0 3em;
+    font-family: 'Roboto Slab', serif;
+}
 
 
 
