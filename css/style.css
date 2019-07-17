@@ -1,0 +1,75 @@
+*,
+*:after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu {
+    min-height: 10vh;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #777777;
+}
+
+.title-section {
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    min-height: 60vh;
+}
+
+.title-section__title{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+@media (min-width: 578px){
+    .title-section__title{
+    font-size: 3.75em;
+    }
+}
+
+
+.title-section__subTitle {
+    padding: 2em 0;
+    color: #cccccc;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.25em;
+    line-height: 1.3em;
+}
+
+.button {
+    background-color: #7cc576;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    padding: 1em 2em;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #7cc576;
+}
