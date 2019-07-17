@@ -271,5 +271,78 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+/* OUR CLIENTS */
 
+.clients{
+    padding: 3em 0;
+}
+
+.quote p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.375em;
+    line-height: 1.750em;
+    color: #777777;
+    padding: 0 2em;
+}
+
+p.autor {
+    color: #7cc576;
+    font-size: 1.125em;
+    line-height: 2.250em;
+}
+
+.avatar {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    left: 50%;
+    margin: auto;
+}
+
+.photo {
+    min-height: 300px;
+}
+
+.avatar.woman {
+    background-image: url(../img/girl-face.jpg);
+}
+
+.avatar.man {
+    background-image: url(../img/man-face.jpg);
+}
+
+.photo-man{
+    order: 1;
+}
+.quote-man{
+    order: 2;
+}
+.quote-woman{
+    order: 4;
+}
+.photo-woman{
+    order: 3;
+}
+
+@media(min-width:992px) {
+    .avatar.man {
+        float: right;
+    }
+
+    .avatar.woman {
+        float: left;
+    }
+
+    .quote-woman{
+        order: 3;
+    }
+    .photo-woman{
+        order: 4;
+    }
+}
 
