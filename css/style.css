@@ -354,3 +354,34 @@ p.autor {
     }
 }
 
+/* CONTACT */
+
+.contact {
+    background-color: #7cc576;
+    color: #ffffff;
+    min-height: 20vh;
+    padding: 2em 0;
+}
+
+.contact h2 {
+    color: #ffffff;
+}
+
+.contact__button {
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    line-height: 41px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.125em;
+    text-transform: uppercase;
+    background-color: #7cc576;
+    color: #ffffff;
+    padding: 0 1em;
+    cursor: pointer;
+}
+
+.contact__button:hover {
+    background-color: #ffffff;
+    color: #7cc576;
+}
