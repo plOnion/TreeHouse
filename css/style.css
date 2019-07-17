@@ -371,7 +371,6 @@ p.autor {
     border: 3px solid #ffffff;
     border-radius: 10px;
     line-height: 41px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.125em;
     text-transform: uppercase;
@@ -384,4 +383,18 @@ p.autor {
 .contact__button:hover {
     background-color: #ffffff;
     color: #7cc576;
+}
+
+/* LOGOS */
+
+.logos {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.logos__images{
+    overflow: hidden;
+}
+
+.logos__images img {
+    margin: 1em 2em;
 }
