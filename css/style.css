@@ -4,7 +4,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 a {
@@ -14,13 +14,31 @@ a {
 h1, h2, h3, h4, h5, h6{
     line-height: 1.3;
 }
+h2{
+    font-weight: bold;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.25em;
+    color: #777777;
+}
+h4{
+    font-weight: bold;
+    font-size: 1.125em;
+    text-transform: uppercase;
+    color: #000000;
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
   background: #fff;
   margin: 0;
   padding: 0;
-  min-width: 350px;
+  /* min-width: 350px; */
 }
 
 .main-menu {
@@ -57,8 +75,6 @@ body {
 .title-section__subtitle {
     padding: 2em 0;
     color: #cccccc;
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.25em;
 }
 
 .button {
@@ -82,19 +98,6 @@ body {
 .services__header {
     margin-top: 5em;
     padding-bottom: 2em;
-}
-
-.services__header__title{
-    font-size: 2.5em;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #222222;
-}
-
-.services__header__subtitle {
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.25em;
-    color: #777777;
 }
 
 .services__boxes img {
@@ -141,9 +144,6 @@ body {
 }
 
 .relax__content__title {
-    font-size: 2.5em;
-    font-weight: bold;
-    text-transform: uppercase;
     color: #ffffff;
 }
 
@@ -163,3 +163,67 @@ body {
 .relax__content .button {
     margin-top: 1em;
 }
+
+/* SECTION LATEST PROJECT */
+
+.latest_project {
+    padding-top: 4em;
+    color: #777777;
+}
+
+.latest_project h3 {
+    padding-bottom: 1em;
+}
+
+.latest_project a {
+    text-decoration: none;
+    color: #7cc576;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.125em;
+}
+
+.project__boxes{
+    overflow-y: hidden;
+}
+
+.project__boxes__item {
+    padding: 1em 0;
+}
+
+.boxes__item__text {
+    padding-top: 1em;
+}
+
+.boxes__item__text h4 {
+    margin: 0;
+}
+
+@media(max-width:576px) {
+    .project__boxes__item {
+        text-align: center;
+    }
+
+    .ipad {
+        height: 150px;
+        margin: auto;
+        transform: translateX(80%)
+    }
+}
+
+@media(max-width:768px) {
+    .latest_project {
+        padding-top: 2em;
+    }
+
+    .ipad {
+        height: 200px;
+        margin: auto;
+        transform: translateX(80%)
+    }
+}
+
+
+
+
