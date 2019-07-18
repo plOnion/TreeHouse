@@ -479,3 +479,30 @@ p.autor {
     }
     
 }
+
+
+/* BOTTOM FOOTER */
+
+.bottom-footer{
+    padding: 2em 0;
+    font-size: 0.8em;
+    color: #222222;
+    position: relative;
+}
+.bottom-footer p{
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-footer__socialmedia{
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width:576px){
+    .footer img{
+        margin-top: 1.5em;
+    }
+}
