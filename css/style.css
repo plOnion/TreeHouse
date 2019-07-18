@@ -398,3 +398,84 @@ p.autor {
 .logos__images img {
     margin: 1em 2em;
 }
+
+
+/* TOP FOOTER */
+
+.top-footer {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 5em 1em;
+}
+
+.top-footer__box {
+    width: 100%;
+    padding-top: 1em;
+}
+
+.top-footer__box__image {
+    width: 7%;
+    float: left;
+}
+.top-footer__box__image img{
+    width: 100%;
+}
+
+.top-footer__box__text {
+    width: 91%;
+    margin-left: 2%;
+    float: left;
+}
+
+.top-footer__box__text a{
+    color: #ffffff;
+}
+
+.top-footer__box__text p{
+    margin-bottom: 0;
+}
+
+.top-footer h4 {
+    color: #ffffff;
+}
+
+.top-footer p span::before,
+.top-footer p span::after {
+    content: '\A';
+    white-space: pre;
+}
+
+.top-footer__box__hash{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.top-footer__box__time{
+    font-size: 0.8em;
+    margin-bottom: 0;
+}
+
+@media (max-width:576px){
+    .top-footer h4{
+        margin-top: 2em;
+        text-align: center;
+    }
+    
+    .top-footer__box{
+        margin: auto;
+        width: 80%;
+    }
+
+    .top-footer__box__image {
+        float: left;
+    }
+    .top-footer__box__image img{
+        width: 100%;
+    }
+    
+    .top-footer__box__text {
+        margin-left: 2%;
+        float: left;
+    }
+    
+}
