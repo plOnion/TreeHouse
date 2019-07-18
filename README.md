@@ -1,3 +1,5 @@
 # TreeHouse - Weekly WebDev Challenge - PSD to HTML
 
-html/css/js/Bootstrap
+HTML / CSS / Bootstrap
+
+Animate element with AOS - https://michalsnik.github.io/aos/
